@@ -5,6 +5,14 @@ import java.util.List;
 
 public class Puzzle {
 
+    private Integer part1(List<String> input) {
+        return 0;
+    }
+
+    private Integer part2(List<String> input) {
+        return 0;
+    }
+
     public static void main(String[] args) {
         Puzzle quiz = new Puzzle();
 

@@ -7,6 +7,17 @@ import java.util.List;
 
 public class Puzzle {
 
+    private Integer part1(List<String> input) {
+        return 0;
+    }
+
+    private Integer part2(List<String> input) {
+        return 0;
+    }
+
+    public Puzzle() {
+    }
+
     public static void main(String[] args) {
         Puzzle quiz = new Puzzle();
         try {
@@ -15,6 +26,5 @@ public class Puzzle {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
     }
 }
