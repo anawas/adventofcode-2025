@@ -9,17 +9,21 @@ public class Puzzle {
         return 0;
     }
 
-
     public Integer part2(List<String> input) {
         return 0;
     }
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         Puzzle quiz = new Puzzle();
 
-        List<String> input = Utils.readInput("day1.in");
+       List<String> input;
+       try {
+          input = Utils.readInput("day1.in");
+       } catch (IOException e) {
+          throw new RuntimeException(e);
+       }
 
-        System.out.println(quiz.part1(input));
+       System.out.println(quiz.part1(input));
         System.out.println(quiz.part2(input));
     }
 }
